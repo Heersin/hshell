@@ -30,7 +30,7 @@ make && make clean
 ## Usage
 ### History
 push up arrow will get your last command, you can use up and down arrow key to change cmd in your history inputs. The history file is "./hsh_history" 
-
+![history](../doc/history.gif)
 ### Delete Char
 push backspace will delete the command char
 
@@ -42,7 +42,6 @@ You can insert char in front of the cursor
 
 ### Auto Complete hint
 Tab to get the hint of your command, but hsh won't complete your command
-
 ### Simple redirect
 Support simple redirect : only process one redirect simple 
 ```
@@ -53,7 +52,7 @@ Support simple redirect : only process one redirect simple
 [cmd] < [file]
     echo < test.txt
 ```
-
+![tab_redirect](../doc/tab_redirect.gif)
 ### simple pipe
 Support max 8 cmd to pipe
 ```
@@ -61,10 +60,11 @@ cmd1 | cmd2 | cmd3 ...
     >>$ ls | wc
     >>$ 0 14 16
 ```
-
+![pipe](../doc/pipe_exit.gif)
 ### Clear and Exit
 Clear Screen : ctrl-L<br>
 Exit : ctrl-D
+![clear](../doc/clear.gif)
 
 ## Contribution
 Reconstruct This Project code is welcome~
