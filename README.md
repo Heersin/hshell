@@ -30,7 +30,7 @@ make && make clean
 ## Usage
 ### History
 push up arrow will get your last command, you can use up and down arrow key to change cmd in your history inputs. The history file is "./hsh_history" 
-![history](https://github.com/Heersin/hshell/blob/master/doc/history.gif)
+![history](https://github.com/Heersin/hshell/blob/master/docs/history.gif)
 ### Delete Char
 push backspace will delete the command char
 
@@ -52,7 +52,7 @@ Support simple redirect : only process one redirect simple
 [cmd] < [file]
     echo < test.txt
 ```
-![tab_redirect](https://github.com/Heersin/hshell/blob/master/doc/tab_redirect.gif)
+![tab_redirect](https://github.com/Heersin/hshell/blob/master/docs/tab_redirect.gif)
 ### simple pipe
 Support max 8 cmd to pipe
 ```
@@ -60,7 +60,7 @@ cmd1 | cmd2 | cmd3 ...
     >>$ ls | wc
     >>$ 0 14 16
 ```
-![pipe](https://github.com/Heersin/hshell/blob/master/doc/pipe_exit.gif)
+![pipe](https://github.com/Heersin/hshell/blob/master/docs/pipe_exit.gif)
 ### Clear and Exit
 Clear Screen : ctrl-L<br>
 Exit : ctrl-D
